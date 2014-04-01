@@ -14,6 +14,46 @@ main_sents = [
 
 my_annotator = new annotator(
 		{ top:10, right:10, bottom:10, left:10}, 
-		1000, 400, "#annotator");
+		1000, 100, "#annotator");
 
-my_annotator.update();
+my_browser = new sent_browser({ top:10, right:10, bottom:10, left:10}, 
+		300, 600, "#browser");
+
+my_annotator.update(0, 0);
+my_browser.update();
+
+$("input, select").keydown(function(e) {
+    if (e.keyCode == 40 || e.keyCode == 13) {
+        $(this).next('input, select').focus();
+    } else if (e.keyCode == 38) {
+    	$(this).prev('input, select').focus();
+    }
+});
+
+function save_as() {
+	$.get("cgi-bin/annotation_processor.py", { 
+				data : JSON.stringify(main_sents),
+				filename: $("#filepath_input").val()
+			},
+			function(response) {
+				console.log(response);
+			});
+}
+
+/*
+d3.select("body")
+	.on("keydown", function() {
+		switch (d3.event.keyCode) {
+		case 38 : // up
+				my_annotator.toPrev();
+				my_browser.update();
+				break;
+		case 40 : // down
+				my_annotator.toNext();
+				my_browser.update();
+				break;
+		default :
+			return false;
+		}
+		console.log(d3.event.keyCode);	
+	});*/

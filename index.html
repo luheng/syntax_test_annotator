@@ -13,13 +13,30 @@
     
     <hr style="background:#91C5EB; border:0; height:3px" />
     
+    <div id="browser"></div>
     <div id="annotator"></div>
-    <div id="sentence_info"></div>
-    <div id="question_input"></div>
- 
+    
+    <input type="text" class="question_input" id="q1" autofocus="true">
+    
+    <input type="text" class="question_input" id="q2">
+    
+    <input type="text" class="question_input" id="q3">
+    
+    <input type="text" class="question_input" id="q4">
+    
+    <input type="text" class="question_input" id="q5">    
+    <!--  input type="text" id="answer" -->
+    
+    <div id="buttons">
+	    <button type="button" class="google button" id="prev_button" onclick="my_annotator.getPrev();">Prev</button>
+	    <button type="button" class="google button" id="next_button" onclick="my_annotator.getNext();">Next</button>
+	    <button type="button" class="google button" id="save_button" onclick="save_as();">Save as</button>
+	    <input type="text" id="filepath_input" value="annotated.json">
+    </div>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>
-  <script src="annotator.js"></script>   
+  <script src="annotator.js"></script>
+  <script src="sent_browser.js"></script>   
   <script src="main.js"></script>
   
 </body>

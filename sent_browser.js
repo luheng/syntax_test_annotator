@@ -1,0 +1,81 @@
+
+function sent_browser(margin, width, height, tag) {
+	this.margin = margin;
+    this.width = width - margin.left - margin.right;
+    this.height = height - margin.top - margin.bottom;
+    this.svg = d3.select(tag)
+		.append("svg")
+		.attr("width", width)
+		.attr("height", height)
+		.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+    this.box_height = 24;
+    this.box_width = this.width * 0.8; 
+    this.init();
+    this.height = Math.max(500, this.tdata.length * this.box_height + this.margin.top);
+    d3.select(tag).style("height", this.height + "px");
+}
+
+sent_browser.prototype = {
+	init : function() {
+		var self = this;
+		self.tdata = [];
+		for (var i = 0; i < main_sents.length; i++) {
+			self.tdata.push( {
+				text : "sentence [" + i + "]",
+				sent_id : i,
+				phrase_id : 0
+			});
+			var tokens = main_sents[i].tokens;
+			var phrases = main_sents[i].phrases;
+			for (var j = 0; j < phrases.length; j++) {
+				var lid = phrases[j].left;
+				var rid = phrases[j].right;
+				self.tdata.push({
+					text : " - " + tokens.slice(lid, rid).join(" "),
+					sent_id : i,
+					phrase_id : j
+				});
+			}
+		}
+	},
+	update : function() {
+		var self = this;
+		self.svg.selectAll("g.node").remove();
+		
+		var nodeEnter = self.svg.selectAll("g.node")
+				.data(self.tdata)
+				.enter()
+				.append("g")
+				.attr("class", "node")
+				.attr("transform", function(d, i) {
+					var xx = 0;
+					var yy = self.box_height * i + self.margin.top;
+					return "translate(" + xx + "," + yy + ")";
+				});
+		
+		nodeEnter.append("rect")
+			.attr("height", self.box_height)
+			.attr("width", self.box_width)
+			.attr("fill", "red")
+			.attr("opacity", function(d, i) {
+				return my_annotator.sent_id == d.sent_id &&
+					my_annotator.phrase_id == d.phrase_id ? 0.2 : 1e-6;
+			})
+			.on("click", function(d, i) {
+				my_annotator.update(d.sent_id, d.phrase_id);
+				self.update();
+			});
+		
+		nodeEnter.append("text")
+			.text(function(d) {
+				return d.text;
+			})
+			.attr("y", 12)
+			.attr("text-anchor", "left")
+			.style("font-size", "16px")
+			.style("fill", "black")
+			.style("fill-opacity", 1);
+	}	
+};
