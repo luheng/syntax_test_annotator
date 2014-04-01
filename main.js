@@ -36,6 +36,11 @@ $("input, select").keydown(function(e) {
 });
 
 function save_as() {
+	my_annotator.getAnnotation();
+	d3.selectAll("textarea").remove();
+	$("body").append("<textarea id=\"results\">" + JSON.stringify(main_sents, null, '\t') + "</textarea>");
+	$("#results").focus();
+	console.log(prettyPrint(main_sents));
 	$.get("cgi-bin/annotation_processor.py", { 
 				data : JSON.stringify(main_sents),
 				filename: $("#filepath_input").val()

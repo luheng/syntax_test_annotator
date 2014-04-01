@@ -27,6 +27,11 @@
 	margin-top : 5px;
 }
 
+#results {
+	margin-top : 10px;
+	width : 800px;
+	height : 250px;
+}
 .text {
 	pointer-events : none;
 }
