@@ -64,7 +64,7 @@ sent_browser.prototype = {
 					my_annotator.phrase_id == d.phrase_id ? 0.2 : 1e-6;
 			})
 			.on("click", function(d, i) {
-				my_annotator.update(d.sent_id, d.phrase_id);
+				my_annotator.jump(d.sent_id, d.phrase_id);
 				self.update();
 			});
 		

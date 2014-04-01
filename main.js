@@ -11,6 +11,11 @@ main_sents = [
     }, 
 ];
 
+main_sents.forEach(function(d) {
+	d.phrases.forEach(function(d2) {
+		d2.questions = [];
+	});
+});
 
 my_annotator = new annotator(
 		{ top:10, right:10, bottom:10, left:10}, 
@@ -19,7 +24,7 @@ my_annotator = new annotator(
 my_browser = new sent_browser({ top:10, right:10, bottom:10, left:10}, 
 		300, 600, "#browser");
 
-my_annotator.update(0, 0);
+my_annotator.update();
 my_browser.update();
 
 $("input, select").keydown(function(e) {

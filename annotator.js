@@ -20,12 +20,10 @@ annotator.prototype = {
 	clear : function() {
 		this.svg.selectAll("text").remove();
 	},
-	update : function(sid, pid) {
+	update : function() {
 		var self = this;
 		self.clear();
 		
-		self.sent_id = sid;
-		self.phrase_id = pid;
 		var phrase = main_sents[self.sent_id].phrases[self.phrase_id];
 		var tokens = main_sents[self.sent_id].tokens;
 		var lid = phrase.left;
@@ -76,34 +74,62 @@ annotator.prototype = {
 			})
 			.style("fill-opacity", 1);
 	},
-	updateAnnotation : function() {
-		
+	getAnnotation : function() {
+		console.log("get", this.sent_id, this.phrase_id);
+		var phrase = main_sents[this.sent_id].phrases[this.phrase_id];
+		phrase.questions = [];
+		for (var i = 1; i <= 5; i++) {
+			var qid = "#q" + i;
+			phrase.questions.push($(qid).val());
+		}
+	},
+	setAnnotation : function() {
+		var qs = main_sents[this.sent_id].phrases[this.phrase_id].questions;
+		console.log(this.sent_id, this.phrase_id, qs);
+		for (var i = 1; i <= 5; i++) {
+			var qid = "#q" + i;
+			var q = i <= qs.length ? qs[i - 1] : "";
+			$(qid).val(q);
+		}
+	},
+	jump : function(new_sent_id, new_phrase_id) {
+		this.getAnnotation();
+		this.sent_id = new_sent_id;
+		this.phrase_id = new_phrase_id;
+		this.update();
+		this.setAnnotation();
+		my_browser.update();
+		$("#q1").focus();
 	},
 	getPrev : function() {
-		console.log("to prev");
 		if (this.sent_id == 0 && this.phrase_id == 0) {
 			return;
 		}
+		this.getAnnotation();
 		this.phrase_id --;
 		if (this.phrase_id < 0) {
 			this.sent_id --;
 			this.phrase_id = main_sents[this.sent_id].phrases.length - 1;
 		}
-		this.update(this.sent_id, this.phrase_id);
+		this.update();
+		this.setAnnotation();
 		my_browser.update();
+		$("#q1").focus();
 	},
 	getNext : function() {
-		console.log("to next");
 		if (this.sent_id == main_sents.length - 1 &&
 			this.phrase_id == main_sents[this.sent_id].phrases.length - 1) {
 			return;
 		}
+		this.getAnnotation();
 		this.phrase_id ++;
 		if (this.phrase_id == main_sents[this.sent_id].phrases.length) {
 			this.sent_id ++;
 			this.phrase_id = 0;
 		}
-		this.update(this.sent_id, this.phrase_id);
+		this.update();
+		this.setAnnotation();
 		my_browser.update();
+		$("#q1").focus();
 	}
 };
