@@ -13,7 +13,7 @@ var main_sents = [
 
 my_annotator = new annotator(
 		{ top:10, right:10, bottom:10, left:10}, 
-		1000, 50, "#annotator");
+		1200, 50, "#annotator");
 
 my_browser = new sent_browser({ top:10, right:10, bottom:10, left:10}, 
 		300, 600, "#browser");
