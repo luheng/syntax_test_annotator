@@ -1,5 +1,5 @@
 
-main_sents = [
+var main_sents = [
     {
     	tokens: ["This", "is", "a", "test", "for", "constituents", "."], 
     	phrases : [
@@ -11,21 +11,12 @@ main_sents = [
     }, 
 ];
 
-main_sents.forEach(function(d) {
-	d.phrases.forEach(function(d2) {
-		d2.questions = [];
-	});
-});
-
 my_annotator = new annotator(
 		{ top:10, right:10, bottom:10, left:10}, 
-		1000, 100, "#annotator");
+		1000, 50, "#annotator");
 
 my_browser = new sent_browser({ top:10, right:10, bottom:10, left:10}, 
 		300, 600, "#browser");
-
-my_annotator.update();
-my_browser.update();
 
 $("input, select").keydown(function(e) {
     if (e.keyCode == 40 || e.keyCode == 13) {
@@ -35,12 +26,27 @@ $("input, select").keydown(function(e) {
     }
 });
 
+
+d3.json("./data/pred_email00_ptb0221_50kbest.json", function(data) {
+	main_sents = data;
+	main_sents.forEach(function(d) {
+		d.phrases.forEach(function(d2) {
+			if (!d2.questions) {
+				d2.questions = [];
+			}
+		});
+	});
+	my_annotator.update();
+	my_browser.init();
+	my_browser.update();
+});
+
+
 function save_as() {
 	my_annotator.getAnnotation();
 	d3.selectAll("textarea").remove();
 	$("body").append("<textarea id=\"results\">" + JSON.stringify(main_sents, null, '\t') + "</textarea>");
 	$("#results").focus();
-	console.log(prettyPrint(main_sents));
 	$.get("cgi-bin/annotation_processor.py", { 
 				data : JSON.stringify(main_sents),
 				filename: $("#filepath_input").val()

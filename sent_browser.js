@@ -3,6 +3,7 @@ function sent_browser(margin, width, height, tag) {
 	this.margin = margin;
     this.width = width - margin.left - margin.right;
     this.height = height - margin.top - margin.bottom;
+    this.tag = tag;
     this.svg = d3.select(tag)
 		.append("svg")
 		.attr("width", width)
@@ -10,11 +11,9 @@ function sent_browser(margin, width, height, tag) {
 		.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
-    this.box_height = 24;
+    this.box_height = 20;
     this.box_width = this.width * 0.8; 
     this.init();
-    this.height = Math.max(500, this.tdata.length * this.box_height + this.margin.top);
-    d3.select(tag).style("height", this.height + "px");
 }
 
 sent_browser.prototype = {
@@ -39,6 +38,8 @@ sent_browser.prototype = {
 				});
 			}
 		}
+		self.height = Math.max(500, self.tdata.length * self.box_height + self.margin.top);
+	    d3.select(self.tag).style("height", self.height + "px");
 	},
 	update : function() {
 		var self = this;
@@ -72,9 +73,9 @@ sent_browser.prototype = {
 			.text(function(d) {
 				return d.text;
 			})
-			.attr("y", 12)
+			.attr("y", 10)
 			.attr("text-anchor", "left")
-			.style("font-size", "16px")
+			.style("font-size", "12px")
 			.style("fill", "black")
 			.style("fill-opacity", 1);
 	}	

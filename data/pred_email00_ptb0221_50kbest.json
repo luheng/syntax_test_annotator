@@ -1,0 +1,3928 @@
+[
+    {
+        "tokens": [
+            "Listening", 
+            "to", 
+            "the", 
+            "Edison", 
+            "call", 
+            "w/", 
+            "investors", 
+            "Edison", 
+            "says", 
+            "they", 
+            "will", 
+            "pay", 
+            "everyone", 
+            "at", 
+            "the", 
+            "same", 
+            "time", 
+            "(", 
+            "\"", 
+            "big", 
+            "bang", 
+            "\"", 
+            "approach", 
+            ")", 
+            "sometime", 
+            "in", 
+            "Q1", 
+            "'02", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 7, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 7, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 7, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 28, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 28, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 28, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 28, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 24, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 25, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 28, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 24, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 25, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 14
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 24, 
+                "in_gold": 0, 
+                "left": 14
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 25, 
+                "in_gold": 0, 
+                "left": 14
+            }, 
+            {
+                "labels": [
+                    "PRN"
+                ], 
+                "in_pred": 1, 
+                "right": 24, 
+                "in_gold": 1, 
+                "left": 17
+            }, 
+            {
+                "labels": [
+                    "FRAG"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 0, 
+                "left": 18
+            }, 
+            {
+                "labels": [
+                    "ADJP"
+                ], 
+                "in_pred": 0, 
+                "right": 21, 
+                "in_gold": 0, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 0, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 28, 
+                "in_gold": 1, 
+                "left": 24
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 28, 
+                "in_gold": 0, 
+                "left": 25
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 28, 
+                "in_gold": 1, 
+                "left": 26
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "My", 
+            "concern", 
+            "is", 
+            "that", 
+            "between", 
+            "now", 
+            "and", 
+            "then", 
+            "Dunn", 
+            ",", 
+            "the", 
+            "AG", 
+            "have", 
+            "the", 
+            "time", 
+            "and", 
+            "resources", 
+            "to", 
+            "make", 
+            "a", 
+            "heckuvalot", 
+            "of", 
+            "mischief", 
+            ",", 
+            "which", 
+            "could", 
+            "be", 
+            "detrimental", 
+            "to", 
+            "generators", 
+            "/", 
+            "marketers", 
+            "'", 
+            "claims", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 2, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 15, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 34, 
+                "in_gold": 0, 
+                "left": 16
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 17
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 18
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 23, 
+                "in_gold": 1, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 0, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 1, 
+                "left": 21
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 34, 
+                "in_gold": 0, 
+                "left": 21
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 34, 
+                "in_gold": 0, 
+                "left": 22
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 24
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 25
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 26
+            }, 
+            {
+                "labels": [
+                    "ADJP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 27
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 28
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 29
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 33, 
+                "in_gold": 0, 
+                "left": 30
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 0, 
+                "left": 30
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "Investors", 
+            "are", 
+            "asking", 
+            "what", 
+            "Edison", 
+            "intends", 
+            "for", 
+            "QFs", 
+            "and", 
+            "generators", 
+            "--", 
+            "asking", 
+            "about", 
+            "haircuts", 
+            "in", 
+            "particular", 
+            "--", 
+            "and", 
+            "Edison", 
+            "is", 
+            "side", 
+            "-", 
+            "stepping", 
+            "the", 
+            "questions", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 0, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 1, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "PRN"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 14, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 14
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 25, 
+                "in_gold": 1, 
+                "left": 18
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 25, 
+                "in_gold": 1, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 25, 
+                "in_gold": 1, 
+                "left": 20
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 25, 
+                "in_gold": 0, 
+                "left": 22
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 25, 
+                "in_gold": 1, 
+                "left": 23
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "Figured", 
+            "they", 
+            "'d", 
+            "contacted", 
+            "them", 
+            ",", 
+            "but", 
+            "wanted", 
+            "to", 
+            "make", 
+            "sure", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 2, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 5, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 0, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 5, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 5, 
+                "in_gold": 1, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 9
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "I", 
+            "apologize", 
+            ",", 
+            "I", 
+            "'m", 
+            "on", 
+            "the", 
+            "road", 
+            "and", 
+            "have", 
+            "n't", 
+            "heard", 
+            "when", 
+            "that", 
+            "will", 
+            "be", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 8, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 0, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 0, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 0, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "UCP"
+                ], 
+                "in_pred": 0, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 14
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "I", 
+            "'m", 
+            "thinking", 
+            "that", 
+            "I", 
+            "may", 
+            "want", 
+            "to", 
+            "attend", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 7
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "Thanks", 
+            "for", 
+            "the", 
+            "info", 
+            "-", 
+            "a", 
+            "few", 
+            "people", 
+            "from", 
+            "our", 
+            "shop", 
+            "will", 
+            "be", 
+            "in", 
+            "attendance", 
+            "./"
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 4, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 4, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 15, 
+                "in_gold": 0, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 4, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 8, 
+                "in_gold": 0, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 11, 
+                "in_gold": 0, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 15, 
+                "in_gold": 0, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "PRN"
+                ], 
+                "in_pred": 0, 
+                "right": 15, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "WHNP"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 0, 
+                "right": 15, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 13
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "If", 
+            "you", 
+            "have", 
+            "n't", 
+            "heard", 
+            ",", 
+            "SoCal", 
+            "'s", 
+            "announced", 
+            "their", 
+            "abandoning", 
+            "windows", 
+            "for", 
+            "OFOs", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 5, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 5, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 5, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 14, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 14, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 14, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 14, 
+                "in_gold": 1, 
+                "left": 12
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "They", 
+            "'re", 
+            "holding", 
+            "\"", 
+            "workshops", 
+            "\"", 
+            "on", 
+            "how", 
+            "it", 
+            "will", 
+            "all", 
+            "work", 
+            "soon", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 5, 
+                "in_gold": 0, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 5, 
+                "in_gold": 0, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 6, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 11
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "Electricity", 
+            ":", 
+            "A", 
+            "panel", 
+            "focuses", 
+            "on", 
+            "price", 
+            "hikes", 
+            "and", 
+            "the", 
+            "actions", 
+            "of", 
+            "the", 
+            "ISO", 
+            "president", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 4, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 4, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 11, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 1, 
+                "left": 12
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "A", 
+            "state", 
+            "Senate", 
+            "committee", 
+            "is", 
+            "set", 
+            "today", 
+            "to", 
+            "start", 
+            "serving", 
+            "16", 
+            "subpoenas", 
+            "on", 
+            "electricity", 
+            "producers", 
+            "and", 
+            "officials", 
+            "who", 
+            "manage", 
+            "California", 
+            "'s", 
+            "energy", 
+            "grid", 
+            "to", 
+            "determine", 
+            "whether", 
+            "they", 
+            "acted", 
+            "in", 
+            "concert", 
+            "to", 
+            "manipulate", 
+            "energy", 
+            "prices", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 4, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 23, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 34, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 23, 
+                "in_gold": 0, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 23, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 23, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 0, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 34, 
+                "in_gold": 0, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 15, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 1, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 1, 
+                "left": 17
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 1, 
+                "left": 18
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 23, 
+                "in_gold": 1, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 23
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 24
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 25
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 26
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 27
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 30, 
+                "in_gold": 1, 
+                "left": 28
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 30
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 31
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 34, 
+                "in_gold": 1, 
+                "left": 32
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "Winter", 
+            "defied", 
+            "his", 
+            "own", 
+            "board", 
+            "and", 
+            "Gov.", 
+            "Gray", 
+            "Davis", 
+            "when", 
+            "he", 
+            "filed", 
+            "a", 
+            "50", 
+            "-", 
+            "page", 
+            "request", 
+            "to", 
+            "remove", 
+            "the", 
+            "caps", 
+            ",", 
+            "records", 
+            "and", 
+            "interviews", 
+            "show", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 5, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 21, 
+                "in_gold": 0, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 21, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 14, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "ADJP"
+                ], 
+                "in_pred": 1, 
+                "right": 15, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 15
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 21, 
+                "in_gold": 0, 
+                "left": 15
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 17
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 18
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 19
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 25, 
+                "in_gold": 1, 
+                "left": 22
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "\"", 
+            "I", 
+            "do", 
+            "n't", 
+            "know", 
+            "how", 
+            "these", 
+            "events", 
+            "could", 
+            "have", 
+            "taken", 
+            "place", 
+            "without", 
+            "some", 
+            "concerted", 
+            "effort", 
+            ",", 
+            "\"", 
+            "said", 
+            "Dunn", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "SINV"
+                ], 
+                "in_pred": 1, 
+                "right": 20, 
+                "in_gold": 0, 
+                "left": 18
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "The", 
+            "subpoenas", 
+            "will", 
+            "force", 
+            "those", 
+            "involved", 
+            ",", 
+            "including", 
+            "Winter", 
+            ",", 
+            "to", 
+            "provide", 
+            "sworn", 
+            "testimony", 
+            "about", 
+            "the", 
+            "events", 
+            "to", 
+            "the", 
+            "committee", 
+            ",", 
+            "and", 
+            "to", 
+            "turn", 
+            "over", 
+            "e-mails", 
+            ",", 
+            "personal", 
+            "calendars", 
+            "and", 
+            "memos", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 2, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 20, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 20, 
+                "in_gold": 0, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 31, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 20, 
+                "in_gold": 0, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 31, 
+                "in_gold": 1, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 6, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 20, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 31, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 20, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 31, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 20, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 31, 
+                "in_gold": 0, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 14, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 20, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 14
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 20, 
+                "in_gold": 0, 
+                "left": 14
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 15
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 20, 
+                "in_gold": 0, 
+                "left": 15
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 20, 
+                "in_gold": 1, 
+                "left": 17
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 20, 
+                "in_gold": 1, 
+                "left": 18
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 31, 
+                "in_gold": 1, 
+                "left": 22
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 31, 
+                "in_gold": 1, 
+                "left": 23
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 31, 
+                "in_gold": 0, 
+                "left": 24
+            }, 
+            {
+                "labels": [
+                    "ADJP"
+                ], 
+                "in_pred": 0, 
+                "right": 28, 
+                "in_gold": 0, 
+                "left": 25
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 29, 
+                "in_gold": 0, 
+                "left": 25
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 31, 
+                "in_gold": 1, 
+                "left": 25
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 29, 
+                "in_gold": 1, 
+                "left": 27
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 31, 
+                "in_gold": 0, 
+                "left": 27
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "Davis", 
+            "spokesman", 
+            "Steve", 
+            "Maviglio", 
+            "said", 
+            "the", 
+            "governor", 
+            "felt", 
+            "\"", 
+            "betrayed", 
+            "\"", 
+            "by", 
+            "the", 
+            "actions", 
+            "of", 
+            "Winter", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 4, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 7, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 10, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 11, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "ADJP"
+                ], 
+                "in_pred": 0, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 0, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 14, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 14
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "\"", 
+            "The", 
+            "governor", 
+            "believes", 
+            "it", 
+            "was", 
+            "the", 
+            "defining", 
+            "moment", 
+            ",", 
+            "when", 
+            "what", 
+            "was", 
+            "a", 
+            "mounting", 
+            "problem", 
+            "turned", 
+            "into", 
+            "an", 
+            "instant", 
+            "crisis", 
+            ",", 
+            "\"", 
+            "Maviglio", 
+            "said", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 0, 
+                "right": 9, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 3, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 9, 
+                "in_gold": 0, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 9, 
+                "in_gold": 0, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 0, 
+                "right": 9, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 9, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 9, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "SBAR"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 21, 
+                "in_gold": 0, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 16, 
+                "in_gold": 1, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 21, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "ADJP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 16
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 17
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 21, 
+                "in_gold": 1, 
+                "left": 18
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 24, 
+                "in_gold": 0, 
+                "left": 22
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "Winter", 
+            "refused", 
+            "comment", 
+            ",", 
+            "referring", 
+            "all", 
+            "questions", 
+            "to", 
+            "the", 
+            "public", 
+            "relations", 
+            "office", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 3, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 3, 
+                "in_gold": 0, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 7, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 8
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "ISO", 
+            "spokesman", 
+            "Gregg", 
+            "Fishman", 
+            "said", 
+            "Dunn", 
+            "'s", 
+            "committee", 
+            "will", 
+            "find", 
+            "no", 
+            "criminal", 
+            "conduct", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 4, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 7, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "ADJP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 11
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "The", 
+            "decision", 
+            "was", 
+            "made", 
+            "by", 
+            "ISO", 
+            "upper", 
+            "management", 
+            "with", 
+            "one", 
+            "goal", 
+            "in", 
+            "mind", 
+            ":", 
+            "to", 
+            "keep", 
+            "the", 
+            "lights", 
+            "on", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 2, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 19, 
+                "in_gold": 1, 
+                "left": 2
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 19, 
+                "in_gold": 1, 
+                "left": 3
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 6, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 11, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 19, 
+                "in_gold": 0, 
+                "left": 4
+            }, 
+            {
+                "labels": [
+                    "ADJP"
+                ], 
+                "in_pred": 0, 
+                "right": 7, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 8, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 11, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 19, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 8, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 11, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "UCP"
+                ], 
+                "in_pred": 0, 
+                "right": 19, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 11, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 13, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 19, 
+                "in_gold": 1, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 13, 
+                "in_gold": 1, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 19, 
+                "in_gold": 1, 
+                "left": 14
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 19, 
+                "in_gold": 1, 
+                "left": 15
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 18, 
+                "in_gold": 1, 
+                "left": 16
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 19, 
+                "in_gold": 0, 
+                "left": 16
+            }
+        ]
+    }, 
+    {
+        "tokens": [
+            "At", 
+            "the", 
+            "time", 
+            ",", 
+            "generators", 
+            "were", 
+            "refusing", 
+            "to", 
+            "sell", 
+            "power", 
+            "in", 
+            "California", 
+            "because", 
+            "of", 
+            "the", 
+            "price", 
+            "caps", 
+            "."
+        ], 
+        "phrases": [
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 3, 
+                "in_gold": 1, 
+                "left": 0
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 3, 
+                "in_gold": 1, 
+                "left": 1
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 5
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 6
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 10, 
+                "in_gold": 0, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "S"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 7
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 10, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "VP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 8
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 12, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 9
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 12, 
+                "in_gold": 1, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 10
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 11
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 12
+            }, 
+            {
+                "labels": [
+                    "PP"
+                ], 
+                "in_pred": 0, 
+                "right": 17, 
+                "in_gold": 0, 
+                "left": 13
+            }, 
+            {
+                "labels": [
+                    "NP"
+                ], 
+                "in_pred": 1, 
+                "right": 17, 
+                "in_gold": 1, 
+                "left": 14
+            }
+        ]
+    }
+]

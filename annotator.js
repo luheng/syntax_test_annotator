@@ -42,7 +42,7 @@ annotator.prototype = {
 				return d;
 			})
 			.attr("text-anchor", "left")
-			.style("font-size", "20px")
+			.style("font-size", "14px")
 			.style("fill-opacity", 1e-6);
 		
 		self.svg.selectAll("text").each(
@@ -67,8 +67,8 @@ annotator.prototype = {
 				return i == 0 ? 0 : 
 					(i == 1 ? sizes[0] + 10 : sizes[0] + sizes[1] + 20);
 			})
-			.attr("y", 50)
-			.style("font-size", "20px")
+			.attr("y", 20)
+			.style("font-size", "14px")
 			.style("fill", function(d, i) {
 				return i == 1 ? "red" : "black";
 			})
@@ -102,7 +102,8 @@ annotator.prototype = {
 		$("#q1").focus();
 	},
 	getPrev : function() {
-		if (this.sent_id == 0 && this.phrase_id == 0) {
+		if (//this.sent_id == 0 && 
+			this.phrase_id == 0) {
 			return;
 		}
 		this.getAnnotation();
@@ -117,7 +118,7 @@ annotator.prototype = {
 		$("#q1").focus();
 	},
 	getNext : function() {
-		if (this.sent_id == main_sents.length - 1 &&
+		if (//this.sent_id == main_sents.length - 1 &&
 			this.phrase_id == main_sents[this.sent_id].phrases.length - 1) {
 			return;
 		}
@@ -127,6 +128,30 @@ annotator.prototype = {
 			this.sent_id ++;
 			this.phrase_id = 0;
 		}
+		this.update();
+		this.setAnnotation();
+		my_browser.update();
+		$("#q1").focus();
+	},
+	getPrevSent : function() {
+		if (this.sent_id == 0) {
+			return;
+		}
+		this.getAnnotation();	
+		this.sent_id --;
+		this.phrase_id = 0;
+		this.update();
+		this.setAnnotation();
+		my_browser.update();
+		$("#q1").focus();
+	},
+	getNextSent : function() {
+		if (this.sent_id == main_sents.length - 1) {
+			return;
+		}
+		this.getAnnotation();
+		this.sent_id ++;
+		this.phrase_id = 0;
 		this.update();
 		this.setAnnotation();
 		my_browser.update();
