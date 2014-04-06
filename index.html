@@ -16,16 +16,23 @@
     <!--  div id="browser"></div-->
     <div id="annotator"></div>
     
+    <label for="q1"> question: </label>
     <input type="text" class="question_input" id="q1" autofocus="true">
     
+    <!-- 
     <input type="text" class="question_input" id="q2">
-    
-    <input type="text" class="question_input" id="q3">
-    
+    <input type="text" class="question_input" id="q3">    
     <input type="text" class="question_input" id="q4">
+    <input type="text" class="question_input" id="q5">
+         -->
+    <br>
+    <label for="a1"> answer   : </label>
+    <input type="text" class="question_input" id="a1" >
     
-    <input type="text" class="question_input" id="q5">    
-    <!--  input type="text" id="answer" -->
+    <div id="radio">
+      <input type="radio" name="task" id="qtask" value="question" checked>question task<br>
+      <input type="radio" name="task" id="atask" value="answer">answer task
+    </div>
     
     <div id="buttons">
       <button type="button" class="google button" id="prev_button" onclick="my_annotator.getPrev();">Prev Phrase</button>

@@ -11,6 +11,9 @@ var main_sents = [
     }, 
 ];
 
+var max_num_qs = 1;
+var main_task = "question";
+
 my_annotator = new annotator(
 		{ top:10, right:10, bottom:10, left:10}, 
 		1200, 50, "#annotator");
@@ -55,6 +58,7 @@ $('<a href="data:' + data + '" download="data.json">download JSON</a>').appendTo
 
 function load_from() {
 	var filename = $("#filepath_input").val();
+	main_task = $('input[name="task"]:checked').val();
 	d3.json("./data/" + filename, function(data) {
 		main_sents = data;
 		main_sents.forEach(function(d) {

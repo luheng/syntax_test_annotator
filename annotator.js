@@ -24,13 +24,27 @@ annotator.prototype = {
 		var self = this;
 		self.clear();
 		
+		if (main_task === "question") {
+			for (var i = 1; i <= max_num_qs; i++) {
+				$("#q" + i).prop('disabled', false);
+				$("#a" + i).prop('disabled', true);
+			}
+		} else {
+			for (var i = 1; i <= max_num_qs; i++) {
+				$("#q" + i).prop('disabled', true);
+				$("#a" + i).prop('disabled', false);
+			}
+		}
+		
 		var phrase = main_sents[self.sent_id].phrases[self.phrase_id];
 		var tokens = main_sents[self.sent_id].tokens;
 		var lid = phrase.left;
 		var rid = phrase.right;
-		var tdata = [tokens.slice(0, lid).join(" "), 
+		var tdata = main_task === "question" ?
+					[tokens.slice(0, lid).join(" "), 
 		             tokens.slice(lid, rid).join(" "),
-		             tokens.slice(rid, tokens.length).join(" ")];
+		             tokens.slice(rid, tokens.length).join(" ")] :
+		            [tokens.join(" "), ];
 		var sizes = [];
 		
 		self.svg
@@ -76,7 +90,7 @@ annotator.prototype = {
 		console.log("get", this.sent_id, this.phrase_id);
 		var phrase = main_sents[this.sent_id].phrases[this.phrase_id];
 		phrase.questions = [];
-		for (var i = 1; i <= 5; i++) {
+		for (var i = 1; i <= max_num_qs; i++) {
 			var qid = "#q" + i;
 			phrase.questions.push($(qid).val());
 		}
@@ -84,7 +98,7 @@ annotator.prototype = {
 	setAnnotation : function() {
 		var qs = main_sents[this.sent_id].phrases[this.phrase_id].questions;
 		console.log(this.sent_id, this.phrase_id, qs);
-		for (var i = 1; i <= 5; i++) {
+		for (var i = 1; i <= max_num_qs; i++) {
 			var qid = "#q" + i;
 			var q = i <= qs.length ? qs[i - 1] : "";
 			$(qid).val(q);
