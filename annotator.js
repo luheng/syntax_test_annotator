@@ -50,8 +50,6 @@ annotator.prototype = {
 					console.log(this.getComputedTextLength());
 					sizes.push(this.getComputedTextLength());
 				});
-		
-		//clear();
 		self.svg.selectAll("text").remove();
 		
 		self.svg
