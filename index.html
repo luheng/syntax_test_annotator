@@ -15,19 +15,22 @@
     
     <!--  div id="browser"></div-->
     <div id="annotator"></div>
-    
-    <label for="q1"> question: </label>
-    <input type="text" class="question_input" id="q1" autofocus="true">
-    
-    <!-- 
-    <input type="text" class="question_input" id="q2">
-    <input type="text" class="question_input" id="q3">    
-    <input type="text" class="question_input" id="q4">
-    <input type="text" class="question_input" id="q5">
-         -->
-    <br>
-    <label for="a1"> answer   : </label>
-    <input type="text" class="question_input" id="a1" >
+ 
+    <div>
+        <br>    
+        <label for="q1"> question: </label>
+		    <input type="text" class="question_input" id="q1" autofocus="true">
+		    
+		    <!-- 
+		    <input type="text" class="question_input" id="q2">
+		    <input type="text" class="question_input" id="q3">    
+		    <input type="text" class="question_input" id="q4">
+		    <input type="text" class="question_input" id="q5">
+		         -->
+		    <br> 
+		    <label for="a1"> answer: </label>
+		    <input type="text" class="question_input" id="a1" >
+    </div>
     
     <div id="radio">
       <input type="radio" name="task" id="qtask" value="question" checked>question task<br>
@@ -39,9 +42,16 @@
       <button type="button" class="google button" id="next_button" onclick="my_annotator.getNext();">Next Phrase</button>
       <button type="button" class="google button" id="ps_button" onclick="my_annotator.getPrevSent();">Prev Sentence</button>
       <button type="button" class="google button" id="ns_button" onclick="my_annotator.getNextSent();">Next Sentence</button>
-	    <button type="button" class="google button" id="save_button" onclick="save_as();">Save as</button>
-	    <button type="button" class="google button" id="load_button" onclick="load_from();">Load from</button>
+      <br>
+	    <button type="button" class="google button" id="save_button" onclick="save_as();">Save as file</button>
+	    <button type="button" class="google button" id="load_button" onclick="load_from();">Load from file</button>
 	    <input type="text" id="filepath_input" value="annotated.json">
+	    <br>
+	    <button type="button" class="google button" id="load_button2" onclick="load_from_input();">Load from JSON text</button>
+    </div>
+    
+    <div id="input_container">
+        <textarea id="load_json_input"> </textarea>
     </div>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>

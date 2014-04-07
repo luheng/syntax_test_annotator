@@ -87,21 +87,23 @@ annotator.prototype = {
 			.style("fill-opacity", 1);
 	},
 	getAnnotation : function() {
-		console.log("get", this.sent_id, this.phrase_id);
+		//console.log("get", this.sent_id, this.phrase_id);
 		var phrase = main_sents[this.sent_id].phrases[this.phrase_id];
 		phrase.questions = [];
 		for (var i = 1; i <= max_num_qs; i++) {
-			var qid = "#q" + i;
-			phrase.questions.push($(qid).val());
+			if (main_task === "question") {
+				phrase.questions.push($("#q" + i).val());
+			} else {
+				phrase.answers.push($("#a" + i).val());
+			}
 		}
 	},
 	setAnnotation : function() {
-		var qs = main_sents[this.sent_id].phrases[this.phrase_id].questions;
-		console.log(this.sent_id, this.phrase_id, qs);
+		var phrase = main_sents[this.sent_id].phrases[this.phrase_id];
+		//console.log(this.sent_id, this.phrase_id, qs);
 		for (var i = 1; i <= max_num_qs; i++) {
-			var qid = "#q" + i;
-			var q = i <= qs.length ? qs[i - 1] : "";
-			$(qid).val(q);
+			$("#q" + i).val(i <= phrase.questions.length ? phrase.questions[i - 1] : "");
+			$("#a" + i).val(i <= phrase.answers.length ? phrase.answers[i - 1] : "");
 		}
 	},
 	jump : function(new_sent_id, new_phrase_id) {

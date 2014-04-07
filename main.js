@@ -66,6 +66,9 @@ function load_from() {
 				if (!d2.questions) {
 					d2.questions = [];
 				}
+				if (!d2.answers) {
+					d2.answers = [];
+				}
 			});
 		});
 		my_annotator.init();
@@ -74,6 +77,26 @@ function load_from() {
 		my_browser.init();
 		my_browser.update();
 	});
+}
+
+function load_from_input() {
+	main_task = $('input[name="task"]:checked').val();
+	main_sents = jQuery.parseJSON($('#load_json_input').val());
+	main_sents.forEach(function(d) {
+		d.phrases.forEach(function(d2) {
+			if (!d2.questions) {
+				d2.questions = [];
+			}
+			if (!d2.answers) {
+				d2.answers = [];
+			}
+		});
+	});
+	my_annotator.init();
+	my_annotator.update();
+	my_annotator.setAnnotation();
+	my_browser.init();
+	my_browser.update();
 }
 
 function save_as() {
