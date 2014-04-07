@@ -40,8 +40,6 @@ annotator.prototype = {
 					main_qlist[this.sent_id].length - 1));
 			}
 		}
-		
-		console.log(main_qlist[this.sent_id], this.phrase_id);
 		// reset button status
 		$('#prev_button').prop('disabled', (this.phrase_id == 0));
 		$('#ps_button').prop('disabled', (this.sent_id == 0));

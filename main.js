@@ -49,15 +49,29 @@ d3.json("./data/pred_email00_ptb0221_50kbest.json", function(data) {
 	my_browser.update();
 });
 */
-/*
-stackoverflow example of downloading data 
 
-var obj = {a: 123, b: "4 5 6"};
-var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj));
+function init_task() {
+	main_task = $('input[name="task"]:checked').val();
+	if (main_task === "question") {
+		$('#prev_button').prop('value', 'Prev Phrase');
+		$('#next_button').prop('value', 'Next Phrase');
+	} else {
+		$('#prev_button').prop('value', 'Prev Question');
+		$('#next_button').prop('value', 'Next Question');
+	}
+	d3.selectAll("h1").remove();
+	if (main_task === "question") {
+		$('<h1> Write a Question such that the Highlighted Phrase is the Answer </h1>').prependTo("body");
+	} else {
+		$('<h1> Specify the Longest Part of the Sentence that Answers the Question </h1>').prependTo("body");
+	}
+	if (main_sents.length > 0) {
+		init_annotator();
+	}
+}
 
-$('<a href="data:' + data + '" download="data.json">download JSON</a>').appendTo('#container');
-
-*/
+init_task();
+$('input[name="task"]').change(init_task);
 
 function init_data() {
 	main_qlist = [];
@@ -74,19 +88,14 @@ function init_data() {
 				pids.push(pid);
 			}
 		});
+		if (pids.length == 0) {
+			pids.push(0);
+		}
 		main_qlist.push(pids);
 	});
 }
 
 function init_annotator() {
-	main_task = $('input[name="task"]:checked').val();
-	if (main_task === "question") {
-		$('#prev_button').prop('value', 'Prev Phrase');
-		$('#next_button').prop('value', 'Next Phrase');
-	} else {
-		$('#prev_button').prop('value', 'Prev Question');
-		$('#next_button').prop('value', 'Next Question');
-	}
 	my_annotator.init();
 	my_annotator.update();
 	my_annotator.setAnnotation();
