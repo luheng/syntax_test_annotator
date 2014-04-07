@@ -12,6 +12,8 @@ var main_sents = [
     }, */
 ];
 
+var main_qlist = []; // a list of phrase ids for each sentence, where the phrase contains a question
+
 var max_num_qs = 1;
 var main_task = "question";
 
@@ -57,62 +59,54 @@ $('<a href="data:' + data + '" download="data.json">download JSON</a>').appendTo
 
 */
 
-function load_from() {
-	var filename = $("#filepath_input").val();
-	main_task = $('input[name="task"]:checked').val();
-	
-	if (main_task === "question") {
-		$('#prev_button').prop('value', 'Prev Phrase');
-		$('#next_button').prop('value', 'Next Phrase');
-	} else {
-		$('#prev_button').prop('value', 'Prev Question');
-		$('#next_button').prop('value', 'Next Question');
-	}
-	d3.json("./data/" + filename, function(data) {
-		main_sents = data;
-		main_sents.forEach(function(d) {
-			d.phrases.forEach(function(d2) {
-				if (!d2.questions) {
-					d2.questions = [];
-				}
-				if (!d2.answers) {
-					d2.answers = [];
-				}
-			});
-		});
-		my_annotator.init();
-		my_annotator.update();
-		my_annotator.setAnnotation();
-		my_browser.init();
-		my_browser.update();
-	});
-}
-
-function load_from_input() {
-	main_task = $('input[name="task"]:checked').val();
-	if (main_task === "question") {
-		$('#prev_button').prop('value', 'Prev Phrase');
-		$('#next_button').prop('value', 'Next Phrase');
-	} else {
-		$('#prev_button').prop('value', 'Prev Question');
-		$('#next_button').prop('value', 'Next Question');
-	}
-	main_sents = jQuery.parseJSON($('#load_json_input').val());
+function init_data() {
+	main_qlist = [];
 	main_sents.forEach(function(d) {
-		d.phrases.forEach(function(d2) {
+		var pids = [];
+		d.phrases.forEach(function(d2, pid) {
 			if (!d2.questions) {
 				d2.questions = [];
 			}
 			if (!d2.answers) {
 				d2.answers = [];
 			}
+			if (d2.questions.length > 0 && d2.questions[0].length > 0) {
+				pids.push(pid);
+			}
 		});
+		main_qlist.push(pids);
 	});
+}
+
+function init_annotator() {
+	main_task = $('input[name="task"]:checked').val();
+	if (main_task === "question") {
+		$('#prev_button').prop('value', 'Prev Phrase');
+		$('#next_button').prop('value', 'Next Phrase');
+	} else {
+		$('#prev_button').prop('value', 'Prev Question');
+		$('#next_button').prop('value', 'Next Question');
+	}
 	my_annotator.init();
 	my_annotator.update();
 	my_annotator.setAnnotation();
 	my_browser.init();
 	my_browser.update();
+}
+
+function load_from() {
+	var filename = $("#filepath_input").val();
+	d3.json("./data/" + filename, function(data) {
+		main_sents = data;
+		init_data();
+		init_annotator();
+	});
+}
+
+function load_from_input() {
+	main_sents = jQuery.parseJSON($('#load_json_input').val());
+	init_data();
+	init_annotator();
 }
 
 function save_as() {
