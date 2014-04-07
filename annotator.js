@@ -24,6 +24,7 @@ annotator.prototype = {
 		var self = this;
 		self.clear();
 		
+		// reset input status
 		if (main_task === "question") {
 			for (var i = 1; i <= max_num_qs; i++) {
 				$("#q" + i).prop('disabled', false);
@@ -35,6 +36,15 @@ annotator.prototype = {
 				$("#a" + i).prop('disabled', false);
 			}
 		}
+		// reset button status
+		$('#prev_button').prop('disabled',
+				(this.phrase_id == 0));
+		$('#next_button').prop('disabled',
+				(this.phrase_id == main_sents[this.sent_id].phrases.length - 1));
+		$('#ps_button').prop('disabled',
+				(this.sent_id == 0));
+		$('#ns_button').prop('disabled',
+				(this.sent_id == main_sents.length - 1));
 		
 		var phrase = main_sents[self.sent_id].phrases[self.phrase_id];
 		var tokens = main_sents[self.sent_id].tokens;

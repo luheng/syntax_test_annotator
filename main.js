@@ -1,5 +1,6 @@
 
 var main_sents = [
+                  /*
     {
     	tokens: ["This", "is", "a", "test", "for", "constituents", "."], 
     	phrases : [
@@ -8,7 +9,7 @@ var main_sents = [
     	    { left: 2, right: 6, labels: ["NP"], in_gold : 1, in_pred : 1},
     	    { left: 4, right: 6, labels: ["PP"], in_gold : 1, in_pred : 1},
     	]
-    }, 
+    }, */
 ];
 
 var max_num_qs = 1;
@@ -29,7 +30,7 @@ $("input, select").keydown(function(e) {
     }
 });
 
-
+/*
 d3.json("./data/pred_email00_ptb0221_50kbest.json", function(data) {
 	main_sents = data;
 	main_sents.forEach(function(d) {
@@ -45,7 +46,7 @@ d3.json("./data/pred_email00_ptb0221_50kbest.json", function(data) {
 	my_browser.init();
 	my_browser.update();
 });
-
+*/
 /*
 stackoverflow example of downloading data 
 
@@ -59,6 +60,14 @@ $('<a href="data:' + data + '" download="data.json">download JSON</a>').appendTo
 function load_from() {
 	var filename = $("#filepath_input").val();
 	main_task = $('input[name="task"]:checked').val();
+	
+	if (main_task === "question") {
+		$('#prev_button').prop('value', 'Prev Phrase');
+		$('#next_button').prop('value', 'Next Phrase');
+	} else {
+		$('#prev_button').prop('value', 'Prev Question');
+		$('#next_button').prop('value', 'Next Question');
+	}
 	d3.json("./data/" + filename, function(data) {
 		main_sents = data;
 		main_sents.forEach(function(d) {
@@ -81,6 +90,13 @@ function load_from() {
 
 function load_from_input() {
 	main_task = $('input[name="task"]:checked').val();
+	if (main_task === "question") {
+		$('#prev_button').prop('value', 'Prev Phrase');
+		$('#next_button').prop('value', 'Next Phrase');
+	} else {
+		$('#prev_button').prop('value', 'Prev Question');
+		$('#next_button').prop('value', 'Next Question');
+	}
 	main_sents = jQuery.parseJSON($('#load_json_input').val());
 	main_sents.forEach(function(d) {
 		d.phrases.forEach(function(d2) {
@@ -104,9 +120,10 @@ function save_as() {
 	var results_data = "text/json;charset=utf-8,"
 				+ encodeURIComponent(JSON.stringify(main_sents, null, '\t'));
 	var filename = $("#filepath_input").val();
+	d3.selectAll("a").remove();
 	$('<a href="data:' + results_data + '" download="' + filename + '"> download JSON file </a>').appendTo("body");
 	
-	d3.selectAll("textarea").remove();
+	//d3.selectAll("textarea").remove();
 	//$("body").append("<textarea id=\"results\">" + JSON.stringify(main_sents, null, '\t') + "</textarea>");
 	//$("#results").focus();
 	/*
@@ -120,21 +137,19 @@ function save_as() {
 	*/
 }
 
-
 /*
+pageup and pagedown to scroll, not working very well..
 d3.select("body")
 	.on("keydown", function() {
 		switch (d3.event.keyCode) {
-		case 38 : // up
-				my_annotator.toPrev();
-				my_browser.update();
+		case 33 : // page up
+				my_annotator.getPrev();
 				break;
-		case 40 : // down
-				my_annotator.toNext();
-				my_browser.update();
+		case 34 : // page down
+				my_annotator.getNext();
 				break;
 		default :
 			return false;
-		}
-		console.log(d3.event.keyCode);	
-	});*/
+		}	
+	});
+*/
