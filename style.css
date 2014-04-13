@@ -6,10 +6,21 @@
   overflow: auto;
 }
 
+#radio_container {
+	float: left;
+	width: 20%;
+}
+
+#progress {
+	float: right;
+	width: 80%;
+}
+
 #annotator {
   float: left;
   width: auto;
   height: auto;
+  overflow: auto;
 }
 
 .question_input {

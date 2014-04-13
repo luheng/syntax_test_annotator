@@ -17,12 +17,15 @@ var main_qlist = []; // a list of phrase ids for each sentence, where the phrase
 var max_num_qs = 1;
 var main_task = "question";
 
-my_annotator = new annotator(
+var my_annotator = new annotator(
 		{ top:10, right:10, bottom:10, left:10}, 
 		1200, 50, "#annotator");
 
-my_browser = new sent_browser({ top:10, right:10, bottom:10, left:10}, 
+var my_browser = new sent_browser({ top:10, right:10, bottom:10, left:10}, 
 		300, 600, "#browser");
+
+var my_progress = new progress({ top: 0, right: 10, bottom: 0, left:10},
+		600, 40, "#progress");
 
 $("input, select").keydown(function(e) {
     if (e.keyCode == 40 || e.keyCode == 13) {

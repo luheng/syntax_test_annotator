@@ -95,6 +95,8 @@ annotator.prototype = {
 				return i == 1 ? "red" : "black";
 			})
 			.style("fill-opacity", 1);
+		
+		my_progress.update();
 	},
 	getAnnotation : function() {
 		var pid = main_task === "question" ? this.phrase_id :
@@ -139,6 +141,7 @@ annotator.prototype = {
 		this.update();
 		this.setAnnotation();
 		my_browser.update();
+		my_progress.update();
 		$("#q1").focus();
 	},
 	getNext : function() {
@@ -150,6 +153,7 @@ annotator.prototype = {
 		this.update();
 		this.setAnnotation();
 		my_browser.update();
+		my_progress.update();
 		$("#q1").focus();
 	},
 	getPrevSent : function() {
@@ -162,6 +166,7 @@ annotator.prototype = {
 		this.update();
 		this.setAnnotation();
 		my_browser.update();
+		my_progress.update();
 		$("#q1").focus();
 	},
 	getNextSent : function() {
@@ -174,6 +179,7 @@ annotator.prototype = {
 		this.update();
 		this.setAnnotation();
 		my_browser.update();
+		my_progress.update();
 		$("#q1").focus();
 	}
 };
